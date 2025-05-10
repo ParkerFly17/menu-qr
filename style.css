@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff5eb;
+    color: #333;
+}
+header{
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff3e9;
+    color: #333;    
+}
+header h1{
+    color: #8b0000;
+    font-size: 2.5rem;
+    margin: 0;
+}
+header p{
+    font-size: 1.5rem;
+}
+header .lang-switch{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.lang-btn{
+    padding: 0.5rem 1rem;
+    /* color: #fff; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.lang-btn img{
+    width: 30px;
+    height: 20px;    
+}
+main{
+    padding: 2rem;
+}
+section{
+    margin-bottom: 2rem;
+}
+section h2{
+    font-size: 1.5rem;
+    color: #8b0000;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+h4{
+    border-bottom: thin solid #333;
+    display: inline-block;
+}
+li{
+    font-size: 1.2rem;
+    margin-bottom: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    font-weight: bold;
+    
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff5eb;
+    color: #8b0000;
+}
